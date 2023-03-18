@@ -1,0 +1,3 @@
+Create an arm-none-eabi and aarch64-elf toolchain using make.
+
+To create the toolchain, 'make'
