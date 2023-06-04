@@ -2,7 +2,7 @@
 
 BINUTILS:=binutils-2.40
 GDB:=gdb-13.1
-GCC:=gcc-12.2.0
+GCC:=gcc-13.1.0
 NEWLIB:=newlib-4.3.0.20230120
 
 PARALLEL=-j 8
@@ -27,7 +27,7 @@ $(GDB).tar.gz:
 	wget https://ftp.gnu.org/gnu/gdb/gdb-13.1.tar.gz
 
 $(GCC).tar.gz:
-	wget https://ftp.gnu.org/gnu/gcc/gcc-12.2.0/gcc-12.2.0.tar.gz
+	wget https://ftp.gnu.org/gnu/gcc/gcc-13.1.0.tar.gz
 
 $(NEWLIB).tar.gz:
 	wget ftp://sourceware.org/pub/newlib/newlib-4.3.0.20230120.tar.gz
