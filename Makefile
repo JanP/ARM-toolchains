@@ -27,7 +27,7 @@ $(GDB).tar.gz:
 	wget https://ftp.gnu.org/gnu/gdb/gdb-13.1.tar.gz
 
 $(GCC).tar.gz:
-	wget https://ftp.gnu.org/gnu/gcc/gcc-13.1.0.tar.gz
+	wget https://ftp.gnu.org/gnu/gcc/gcc-13.1.0/gcc-13.1.0.tar.gz
 
 $(NEWLIB).tar.gz:
 	wget ftp://sourceware.org/pub/newlib/newlib-4.3.0.20230120.tar.gz
